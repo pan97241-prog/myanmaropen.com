@@ -1,0 +1,10 @@
+{
+  "name": "myanmaropen",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "build": "rm -rf dist && mkdir -p dist && cp index.html styles.css script.js dist/ && cp -r public/* dist/"
+  }
+}
